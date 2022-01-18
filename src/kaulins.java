@@ -1,8 +1,9 @@
 import java.util.Random;
 
 public class kaulins {
+	static void mestkaulinu(){
 
-	public static void main(String[] args) {
+	
 		
 		int skaitli;
 		Random rand = new Random();
@@ -10,6 +11,11 @@ public class kaulins {
 		skaitli = rand.nextInt(6)+1;
 		System.out.println("Uzkrita : "+skaitli);
 
+	}
+		
+		
+	public static void main(String[] args) {
+		mestkaulinu();
 	}
 
 }
