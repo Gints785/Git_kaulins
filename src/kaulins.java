@@ -4,11 +4,11 @@ public class kaulins {
 
 	public static void main(String[] args) {
 		
-		int skaitlis;
+		int skaitli;
 		Random rand = new Random();
 		
-		skaitlis = rand.nextInt(6)+1;
-		System.out.println("Uzkrita : "+skaitlis);
+		skaitli = rand.nextInt(6)+1;
+		System.out.println("Uzkrita : "+skaitli);
 
 	}
 
