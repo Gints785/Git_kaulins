@@ -15,7 +15,7 @@ public class kaulins {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int reizes, izvele, lielakais=0;
-		
+		List<Integer> pedejie = new ArrayList<Integer>();
 		
 		do{
 			
@@ -28,7 +28,7 @@ public class kaulins {
 				reizes = scan.nextInt();
 			
 			}while(reizes<1);
-			for(int i=0; i<rezes; i++){
+			for(int i=0; i<reizes; i++){
 				pedejie.add(mestkaulinu());
 			}
 		break;
@@ -42,7 +42,7 @@ public class kaulins {
 			System.out.println();
 			break;
 		case 3:
-			for(int i+0 i<pedejie.size(); i++){
+			for(int i=0; i<pedejie.size(); i++){
 				if(pedejie.get(i)>lielakais){
 					lielakais = pedejie.get(i);
 				}
