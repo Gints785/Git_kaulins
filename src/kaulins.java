@@ -5,11 +5,15 @@ public class kaulins {
 	static void mestkaulinu(int reizes){
 		Random rand = new Random();
 		
-		int skaitli;
+		int skaitlis, lielakais=0;
 		for(int i=1;i<=reizes;i++){
-		skaitli = rand.nextInt(6)+1;
-		System.out.println("Uzkrita : "+skaitli);
+			skaitlis = rand.nextInt(6)+1;
+		System.out.println("Uzkrita : "+skaitlis);
+		if(lielakais < skaitlis){
+			lielakais = skaitlis;
 		}
+		}
+		System.out.println("Lielakais skaitlis metienu reize ir "+lielakais);
 	}
 		
 	public static void main(String[] args) {
